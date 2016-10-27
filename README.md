@@ -2,7 +2,7 @@
 
 ## Installation
 
-* `git clone ` this repository
+* `git clone https://github.com/mrazf/stupy.git` this repository
 * `cd stupy`
 * `npm install`
 * `bower install`
