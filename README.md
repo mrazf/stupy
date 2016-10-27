@@ -9,10 +9,10 @@
 
 ## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* `npm start`
+* Visit at [http://localhost:4200](http://localhost:4200).
 
 ### Running Tests
 
-* `ember test`
-* `ember test --server`
+* `npm test` for unit tests
+* `ember test --server` for integration tests with the dev server running
