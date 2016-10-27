@@ -1,0 +1,5 @@
+<h3>{{category.title}}</h3>
+
+{{#each category.products as |product|}}
+  {{ product-selection title=product.title model=product }}
+{{/each}}

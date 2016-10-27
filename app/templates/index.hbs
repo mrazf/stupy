@@ -1,0 +1,10 @@
+{{#each model as |category|}}
+  {{product-category category=category}}
+{{/each}}
+
+<h3>Cart</h3>
+{{cart-contents}}
+
+{{#link-to 'checkout' class='checkout-button'}}
+  checkout
+{{/link-to}}

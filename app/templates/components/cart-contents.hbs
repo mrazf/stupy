@@ -1,0 +1,7 @@
+{{#unless cart.items}}
+  <p>Empty!</p>
+{{/unless}}
+
+{{#each cart.items as |item|}}
+  <p class={{item.id}}>{{item.title}}</p>
+{{/each}}

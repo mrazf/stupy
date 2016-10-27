@@ -40,6 +40,9 @@ module.exports = function(environment) {
     ENV.APP.LOG_VIEW_LOOKUPS = false;
 
     ENV.APP.rootElement = '#ember-testing';
+    ENV.contentSecurityPolicy = {
+      'connect-src': "'self' http://localhost:7357"
+    }
   }
 
   if (environment === 'production') {
